@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    color: #eaeaea;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header {
+    background-color: rgba(30, 30, 30, 0.9);
+    color: #ffffff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #00f2fe;
+}
+
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+nav a:hover {
+    color: #00f2fe;
+    border-bottom: 2px solid #00f2fe;
+}
+
+.social-link {
+    font-size: 1.2rem;
+}
+
+/* Sections */
+section {
+    background-color: #1e1e1e;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.6);
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #00f2fe;
+    margin-bottom: 10px;
+}
+
+/* Profile Picture */
+.profile-pic {
+    max-width: 180px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #00f2fe;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+}
+
+/* Paragraph Styling */
+p {
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* Links in content */
+section a {
+    color: #00f2fe;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
+
+
+
+
+
+header {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-left h1 {
+    margin: 0;
+}
+
+.header-right a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header-right a:hover {
+    text-decoration: underline;
+}
+
+.social-link i {
+    font-size: 20px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.home-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.summary {
+    flex: 1;
+    font-size: 90%;
+    margin-right: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.hidden {
+    display: none;
+    
+}
